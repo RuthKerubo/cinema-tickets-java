@@ -30,7 +30,7 @@ public class TicketServiceImpl implements TicketService {
     /** Maximum number of tickets allowed in a single purchase. */
     private static final int MAX_TICKETS = 25;
 
-    // --- Dependencies (injected, never newed up internally) ---
+    // --- Dependencies (injected, never created internally) ---
 
     private final TicketPaymentService ticketPaymentService;
     private final SeatReservationService seatReservationService;
@@ -72,10 +72,6 @@ public class TicketServiceImpl implements TicketService {
         ticketPaymentService.makePayment(accountId, totalAmount);
         seatReservationService.reserveSeat(accountId, totalSeats);
     }
-
-    // -------------------------------------------------------------------------
-    // Validation — all rules live here, throws immediately on first failure
-    // -------------------------------------------------------------------------
 
     /**
      * Validates that the account ID is a positive integer.
@@ -148,11 +144,6 @@ public class TicketServiceImpl implements TicketService {
             );
         }
     }
-
-    // -------------------------------------------------------------------------
-    // Calculation — pure logic, no side effects
-    // -------------------------------------------------------------------------
-
     /**
      * Calculates the total payment amount in pounds.
      *

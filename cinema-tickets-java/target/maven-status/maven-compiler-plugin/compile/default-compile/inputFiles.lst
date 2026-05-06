@@ -1,8 +1,0 @@
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/thirdparty/paymentgateway/TicketPaymentService.java
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/thirdparty/paymentgateway/TicketPaymentServiceImpl.java
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/thirdparty/seatbooking/SeatReservationService.java
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/thirdparty/seatbooking/SeatReservationServiceImpl.java
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/uk/gov/dwp/uc/pairtest/TicketService.java
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/uk/gov/dwp/uc/pairtest/TicketServiceImpl.java
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/uk/gov/dwp/uc/pairtest/domain/TicketTypeRequest.java
-/home/rkeggy/Documents/cinema-tickets/cinema-tickets-java/src/main/java/uk/gov/dwp/uc/pairtest/exception/InvalidPurchaseException.java
